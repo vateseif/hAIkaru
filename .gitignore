@@ -1,3 +1,9 @@
 
+# database
+*.db
+
+#
+*.pgn
+
 deletable.py
 deletable.ipynb
