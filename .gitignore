@@ -4,6 +4,12 @@
 # portable game notation
 *.pgn
 
+# log
+*.log
+
+# db journal
+*.db-journal
+
 # custom
 deletable.py
 deletable.ipynb
