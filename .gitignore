@@ -1,9 +1,9 @@
-
 # database
 *.db
 
-#
+# portable game notation
 *.pgn
 
+# custom
 deletable.py
 deletable.ipynb
