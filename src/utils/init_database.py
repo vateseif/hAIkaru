@@ -59,9 +59,10 @@ with open('src/utils/lichess_db_standard_rated_2022-06.pgn') as pgn_file:
 
         n_move += 1
 
+      #commit entries for prev game
+      conn.commit()
       # Read the next game in the PGN file
       game = chess.pgn.read_game(pgn_file)
 
-# Commit the changes and close the connection
-conn.commit()
+# close the connection
 conn.close()
