@@ -64,7 +64,7 @@ with open('src/utils/lichess_db_standard_rated_2022-06.pgn') as pgn_file:
       # Read the next game in the PGN file
       game = chess.pgn.read_game(pgn_file)
 
-      if n_game%100==0:
+      if n_game%10000==0:
         print(f"Currently at game {n_game}")
 
 # close the connection
